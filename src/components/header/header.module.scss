@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1000px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.nav__link {
+  font-size: 18px;
+  color: #000;
+  padding-bottom: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.active_ln {
+  color: rgb(68, 143, 255);
+  border-bottom: 1.5px solid rgb(68, 143, 255);
+}
+.supp {
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  top: 36%;
+}
